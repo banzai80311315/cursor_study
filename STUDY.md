@@ -134,3 +134,96 @@ footer {
 - CSS アニメーションの追加
 - JavaScript の導入
 - レスポンシブデザインの強化
+
+## 1. 基本的な HTML 構造
+
+- `<!DOCTYPE html>`宣言
+- `<html lang="ja">`で日本語ページの指定
+- `<head>`と`<body>`の役割
+- メタ情報とタイトルの設定
+
+## 2. 自己紹介ページの作成
+
+### HTML 要素の使用
+
+- ヘッダー（`<header>`）
+- ナビゲーション（`<nav>`）
+- メインコンテンツ（`<main>`）
+- セクション（`<section>`）
+- 画像（`<img>`）
+- リスト（`<ul>`, `<li>`）
+- フッター（`<footer>`）
+
+### CSS スタイリング
+
+- フレックスボックスレイアウト
+  ```css
+  .profile {
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+  }
+  ```
+- グリッドレイアウト
+  ```css
+  .link-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  ```
+- アニメーション効果
+  ```css
+  .dog-icon:hover {
+    transform: scale(1.05);
+  }
+  ```
+
+## 3. リンク集ページの作成
+
+### 実装した機能
+
+- ナビゲーションメニュー
+- リンクカードのデザイン
+- レスポンシブデザイン
+- ホバーエフェクト
+
+### 学んだ CSS テクニック
+
+- トランジション効果
+  ```css
+  transition: transform 0.3s, box-shadow 0.3s;
+  ```
+- ボックスシャドウ
+  ```css
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  ```
+- アクティブ状態のスタイリング
+  ```css
+  .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  ```
+
+## 4. 画像の扱い方
+
+- ローカル画像の使用方法
+- 画像パスの指定方法
+- 画像のサイズ調整
+- 代替テキスト（alt 属性）の重要性
+
+## 5. レスポンシブデザイン
+
+- ビューポートの設定
+  ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  ```
+- フレックスボックスとグリッドの活用
+- メディアクエリの使用
+
+## 今後の学習予定
+
+1. JavaScript の基礎
+2. フォームの作成
+3. アニメーションの追加
+4. アクセシビリティの改善
